@@ -39,6 +39,18 @@ const projects: ProjectData[] = [
   },
   {
     id: 3,
+    title: "Rizervi Hagem",
+    type: "Application Web",
+    description: "Plateforme de réservation pour les barberies en Tunisie.",
+    image: "/images/hagem.png",
+    technologies: ["Next.js", "Node.js", "MongoDB"],
+    github: "https://github.com/moncef-bensalem/barber",
+    demo: "https://rezervi-hagem.vercel.app/",
+    featured: true
+  },
+
+  {
+    id: 4,
     title: "ElMarche - Marketplace de Poisson",
     type: "E-commerce",
     description: "Plateforme de vente en ligne de poisson avec système de commande et de livraison. Intègre un système de paiement en ligne, gestion des commandes en temps réel, et interfaces vendeur/acheteur.",
@@ -49,7 +61,7 @@ const projects: ProjectData[] = [
     featured: true
   },
   {
-    id: 4,
+    id: 5,
     title: "Baity.tn",
     type: "E-commerce",
     description: "Site web de vente en ligne de mobilier avec gestion de catalogue. Inclut un catalogue dynamique, panier d'achat, authentification utilisateur et dashboard administrateur.",
@@ -60,7 +72,7 @@ const projects: ProjectData[] = [
     featured: true
   },
   {
-    id: 5,
+    id: 6,
     title: "Système de Gestion des Candidats",
     type: "Application Web",
     description: "Application web pour la gestion des candidatures et recrutement. Permet le suivi des candidatures, gestion des entretiens, évaluation des candidats et génération de rapports.",
@@ -69,7 +81,7 @@ const projects: ProjectData[] = [
     github: "https://github.com/moncef-bensalem/Gestion_Candidature"
   },
   {
-    id: 6,
+    id: 7,
     title: "Topnet - Site Vitrine",
     type: "Site Web",
     description: "Site web statique présentant les offres Internet et réseaux. Comprend la présentation des offres, formulaire de contact, design responsive et animations JavaScript.",
@@ -79,7 +91,7 @@ const projects: ProjectData[] = [
     demo: "https://topnet.tn"
   },
   {
-    id: 7,
+    id: 8,
     title: "Contact Manager",
     type: "Application Mobile",
     description: "Application mobile Android pour la gestion des contacts. Fonctionnalités CRUD des contacts, recherche et filtrage, synchronisation cloud et interface intuitive.",
@@ -88,7 +100,7 @@ const projects: ProjectData[] = [
     github: "https://github.com/username/contact-manager"
   },
   {
-    id: 8,
+    id: 9,
     title: "Dashboard de Réclamation",
     type: "Application Web",
     description: "Système de gestion des réclamations pour le matériel avec double interface. Interface professeur et technicien, suivi des réclamations, notifications en temps réel et génération de rapports.",
