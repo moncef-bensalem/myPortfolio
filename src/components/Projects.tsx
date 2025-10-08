@@ -14,6 +14,7 @@ interface ProjectData {
 }
 
 const projects: ProjectData[] = [
+  
   {
     id: 1,
     title: "PENVENTORY - Multivendor E-commerce platform",
@@ -27,6 +28,17 @@ const projects: ProjectData[] = [
   },
   {
     id: 2,
+    title: "Handball Academy",
+    type: "Application Web",
+    description: "Plateforme de gestion pour une académie de handball: inscriptions, calendrier, équipes, et suivi des performances.",
+    image: "/images/handball.png",
+    technologies: ["Next.js", "Node.js", "MongoDB"],
+    github: "https://github.com/moncef-bensalem/HandBall-academy",
+    demo: "https://handball-academy.example.com",
+    featured: true
+  },
+  {
+    id: 3,
     title: "ElMarche - Marketplace de Poisson",
     type: "E-commerce",
     description: "Plateforme de vente en ligne de poisson avec système de commande et de livraison. Intègre un système de paiement en ligne, gestion des commandes en temps réel, et interfaces vendeur/acheteur.",
@@ -37,7 +49,7 @@ const projects: ProjectData[] = [
     featured: true
   },
   {
-    id: 3,
+    id: 4,
     title: "Baity.tn",
     type: "E-commerce",
     description: "Site web de vente en ligne de mobilier avec gestion de catalogue. Inclut un catalogue dynamique, panier d'achat, authentification utilisateur et dashboard administrateur.",
@@ -48,7 +60,7 @@ const projects: ProjectData[] = [
     featured: true
   },
   {
-    id: 4,
+    id: 5,
     title: "Système de Gestion des Candidats",
     type: "Application Web",
     description: "Application web pour la gestion des candidatures et recrutement. Permet le suivi des candidatures, gestion des entretiens, évaluation des candidats et génération de rapports.",
@@ -57,7 +69,7 @@ const projects: ProjectData[] = [
     github: "https://github.com/moncef-bensalem/Gestion_Candidature"
   },
   {
-    id: 5,
+    id: 6,
     title: "Topnet - Site Vitrine",
     type: "Site Web",
     description: "Site web statique présentant les offres Internet et réseaux. Comprend la présentation des offres, formulaire de contact, design responsive et animations JavaScript.",
@@ -67,7 +79,7 @@ const projects: ProjectData[] = [
     demo: "https://topnet.tn"
   },
   {
-    id: 6,
+    id: 7,
     title: "Contact Manager",
     type: "Application Mobile",
     description: "Application mobile Android pour la gestion des contacts. Fonctionnalités CRUD des contacts, recherche et filtrage, synchronisation cloud et interface intuitive.",
@@ -76,7 +88,7 @@ const projects: ProjectData[] = [
     github: "https://github.com/username/contact-manager"
   },
   {
-    id: 7,
+    id: 8,
     title: "Dashboard de Réclamation",
     type: "Application Web",
     description: "Système de gestion des réclamations pour le matériel avec double interface. Interface professeur et technicien, suivi des réclamations, notifications en temps réel et génération de rapports.",

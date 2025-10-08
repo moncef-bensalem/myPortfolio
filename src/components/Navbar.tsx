@@ -24,8 +24,8 @@ const Navbar: React.FC = () => {
 
   const handleDownloadCV = () => {
     const link = document.createElement('a');
-    link.href = '/cv.pdf';
-    link.download = 'moncef_bensalem_cv.pdf';
+    link.href = '/moncefbensalemCV.pdf';
+    link.download = 'moncefbensalemCV.pdf';
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
